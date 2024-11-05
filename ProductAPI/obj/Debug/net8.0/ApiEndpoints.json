@@ -1,0 +1,114 @@
+[
+  {
+    "ContainingType": "ProductAPI.ProductEndpoints",
+    "Method": "GetProducts",
+    "RelativePath": "api/products/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Products"
+    ],
+    "EndpointName": "GetProducts"
+  },
+  {
+    "ContainingType": "ProductAPI.ProductEndpoints",
+    "Method": "CreateProduct",
+    "RelativePath": "api/products/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "productlib.ProductCreateReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Products"
+    ],
+    "EndpointName": "CreateProduct"
+  },
+  {
+    "ContainingType": "ProductAPI.ProductEndpoints",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/products/",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "productlib.ProductUpdateReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Products"
+    ],
+    "EndpointName": "UpdateProduct"
+  },
+  {
+    "ContainingType": "ProductAPI.ProductEndpoints",
+    "Method": "GetProduct",
+    "RelativePath": "api/products/{key}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Products"
+    ],
+    "EndpointName": "GetProduct"
+  },
+  {
+    "ContainingType": "ProductAPI.ProductEndpoints",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/products/{key}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Products"
+    ],
+    "EndpointName": "DeleteProduct"
+  }
+]

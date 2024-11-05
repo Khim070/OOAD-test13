@@ -1,0 +1,74 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ProductConsole/1.0.0": {
+        "dependencies": {
+          "RestClientLib": "1.0.4",
+          "productlib": "1.0.0"
+        },
+        "runtime": {
+          "ProductConsole.dll": {}
+        }
+      },
+      "MenuLib/1.0.1": {
+        "runtime": {
+          "lib/net6.0/MenuLib.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "RestClientLib/1.0.4": {
+        "runtime": {
+          "lib/net8.0/RestClientLib.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      },
+      "productlib/1.0.0": {
+        "dependencies": {
+          "MenuLib": "1.0.1",
+          "RestClientLib": "1.0.4"
+        },
+        "runtime": {
+          "Productlib.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": ""
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProductConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MenuLib/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cB8l8HaWhGNmrjyB98p1jP+z28Q/vY0Z3ZVfXVPFaJrv4Z/BhTHGzbb4tVveC2pzt8aVbU2kwXreXrmKNQ54xg==",
+      "path": "menulib/1.0.1",
+      "hashPath": "menulib.1.0.1.nupkg.sha512"
+    },
+    "RestClientLib/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TQhcUyzdTbyyRfHOeMmiu4dxeyZiG0heqENRF1bgSSa7EagRbXHR+C/RIRTVrzerp08b5xQZQaVA8uO05ntxLw==",
+      "path": "restclientlib/1.0.4",
+      "hashPath": "restclientlib.1.0.4.nupkg.sha512"
+    },
+    "productlib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
